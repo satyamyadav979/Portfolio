@@ -12,7 +12,7 @@ function Contact(){
         <div>
             <div className="Nav-o">
                 <ul className="NavList">
-                    <h1 className='h1'>Siddharth Baleja</h1>
+                    <h1 className='h1'>Satyam Yadav</h1>
                     <li className='tree'>
                         <Link to="/">Home</Link>
                     </li>
@@ -28,9 +28,7 @@ function Contact(){
                     {/* <li>
                         <Link to="/Projects">Projects</Link>
                     </li> */}
-                    <li>
-                        <Link to="/Skills">Skills</Link>
-                    </li>
+                   
                     <li>
                         <Link to="/Contact">Contact</Link>
                     </li>
@@ -55,37 +53,19 @@ function Contact(){
                         <h3 id='h4'>Social Profiles</h3>
                     </div>
                     <div className='img'>
-                        <a href='https://github.com/siddharthbaleja7'>
+                        <a >
                             <img src={github} id='git'/>
                         </a>
-                        <a href='https://www.linkedin.com/in/siddharth-baleja-197805294/'>
+                        <a >
                             <img src={LinkedIn} id='Linked'/>
                         </a>
-                        <a href='https://www.google.com'>
+                        <a >
                             <img src={Google} id='Google' />
                         </a>
                     </div>
                 </ul>
             </div>
-            <div className='Contacts1'>
-                <div className='Contact3'>
-                    <div className='email'>
-                        <img src={email} id='email' />
-                        <h3 id='h4'>Email</h3>
-                    </div>
-                    <div className='lii'>
-                        <li id='liii'>siddharthbaleja83@gmail.com</li>
-                        <li>siddhu@asu.edu</li>
-                    </div>
-                </div>
-                <div className='Contact4'>
-                    <div className='contact'>
-                        <img src={phone} id='phone' />
-                        <h3 id='h4'>Contact</h3>
-                    </div>
-                    <li id='contact'>+91 9999XXXXXX</li>
-                </div>
-            </div>
+            
         </div>
     )
 }

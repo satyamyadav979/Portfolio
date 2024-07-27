@@ -55,7 +55,8 @@
 .education-container {
     display: flex;
     justify-content: space-between;
-    margin: 20px 15rem;
+    margin: 28px 15rem;
+    
 }
 
 .Section {
@@ -63,7 +64,7 @@
     color: white;
     width: 30rem;
     margin: 15px;
-    border-radius: 10px;
+    
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -75,12 +76,12 @@
 }
 
 .image-container img {
-    height: 150px;
+    height: 140px;
     width: 10rem;
 }
 
 .details {
-    padding: 15px;
+    padding: 10px;
 }
 
 .certifications {

@@ -7,7 +7,7 @@ function About(){
         <div>
             <div className="Nav-o">
                 <ul className="NavList">
-                    <h1 className='h1'>Siddharth Baleja</h1>
+                    <h1 className='h1'>Satyam Yadav</h1>
                     <li className='tree'>
                         <Link to="/">Home</Link>
                     </li>
@@ -23,9 +23,7 @@ function About(){
                     {/* <li>
                         <Link to="/Projects">Projects</Link>
                     </li> */}
-                    <li>
-                        <Link to="/Skills">Skills</Link>
-                    </li>
+                    
                     <li>
                         <Link to="/Contact">Contact</Link>
                     </li>
@@ -36,31 +34,27 @@ function About(){
             </div>
             <div className='section1'>
                 <img className='img'
-                        src={Image} 
+                        src="https://www.livemint.com/lm-img/img/2023/10/22/600x338/Akhilesh_Yadav_1697964846366_1697964846553.jpg" 
                         alt="Image" 
                         
                     />
                 <div className='indefine'>
 
-                    <p className='p'>Focused and enthusiastic developer with a keen interest in software development and artificial intelligence. By comprehensive exposure to the underlying concepts and applying them vividly to various projects, my love for these domains came into being. I am a passionate individual who thrives to build and apply algorithms to solve real-world industry problems.</p>
+                    <p className='p'>Focused and enthusiastic developer with a passion for software development and artificial intelligence. Experienced in applying underlying concepts to projects, I thrive on building and implementing algorithms to solve real-world industry problems.</p>
                     <div id='h41'>
 
-                        <h4>
-                            <span className="green">{'>'}</span> Birthday: 1 September 2001
-                        </h4>
+                       
   
 
                         <h4>
-                            <span className="green">{'>'}</span> City: Porbandar, Gujarat
+                            <span className="green">{'>'}</span> City: Kanpur , Uttar Pradesh
                         </h4>
 
                     </div>
                     <div id='h42'>
+                       
                         <h4>
-                            <span className="green">{'>'}</span> Phone: 9090XXXXXX
-                        </h4>
-                        <h4>
-                            <span className="green">{'>'}</span> Email: siddharthbaleja83@gmail.com
+                            <span className="green">{'>'}</span> Email: satyamyadav@gmail.com
                         </h4>
 
                     </div>
@@ -88,18 +82,12 @@ function About(){
                     {/* <img src="icons/natural-language-processing.png" alt="Natural Language Processing Icon"> */}
                     <span>Natural Language Processing</span>
                 </div>
-                <div class="interest-item">
-                    {/* <img src="icons/software-engineering.png" alt="Software Engineering Icon"> */}
-                    <span>Software Engineering</span>
-                </div>
+                
                 <div class="interest-item">
                     {/* <img src="icons/visualization.png" alt="Visualization Icon">/ */}
-                    <span>Visualization</span>
+                    <span>Software Engineering</span>
                 </div>
-                <div class="interest-item">
-                    {/* <img src="icons/algorithms.png" alt="Algorithms Icon"> */}
-                    <span>Algorithms</span>
-                </div>
+                
                 <div class="interest-item">
                     {/* <img src="icons/image-processing.png" alt="Image Processing Icon"> */}
                     <span>Image Processing</span>

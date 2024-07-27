@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    /* display: flex; */
-    align-items: center;
+ 
     height: 100%;   
-    background-image: url('Free-Download-Gif-Pictures.gif');
+    background-color: rgb(8, 29, 45);
 }
 .div{
-    margin-top: 23rem;
+    margin-top: -5rem;
+    margin-left: 10rem;
 
 }
 
@@ -53,14 +53,19 @@ body {
 }
 
 .Nav {
-    text-align: center; /* Center the navigation bar */
-    margin-top: 2rem; /* Add space between the Typing component and the Nav bar */
+    height: 50px;
+    background-color: rgb(42, 123, 184);
+    margin-top: 7rem; /* Add space between the Typing component and the Nav bar */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -10rem;
+
 }
 
 .NavList {
     font-size: 25px;
-
-    margin-right: 16rem;
+    margin-left:  10rem;
     list-style-type: none; /* Remove bullet points from the list */
 
 }
