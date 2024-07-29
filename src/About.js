@@ -1,7 +1,7 @@
-import Image from './Photo.jpg'
 import './About.css';
 import { Link } from 'react-router-dom';
 import Portfolio from './Portfolio'
+import image from './WhatsApp Image 2024-07-27 at 1.49.23 PM.jpeg'
 function About(){
     return(
         <div>
@@ -34,7 +34,7 @@ function About(){
             </div>
             <div className='section1'>
                 <img className='img'
-                        src="https://www.livemint.com/lm-img/img/2023/10/22/600x338/Akhilesh_Yadav_1697964846366_1697964846553.jpg" 
+                        src={image}
                         alt="Image" 
                         
                     />
