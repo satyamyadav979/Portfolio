@@ -53,14 +53,11 @@ function Contact(){
                         <h3 id='h4'>Social Profiles</h3>
                     </div>
                     <div className='img'>
-                        <a >
-                            <img src={github} id='git'/>
+                        <a  href="https://github.com/satyamyadav979">
+                            <img src={github} id='git' />
                         </a>
-                        <a >
+                        <a  href="https://www.linkedin.com/in/satyam-yadav-52b01829a/">
                             <img src={LinkedIn} id='Linked'/>
-                        </a>
-                        <a >
-                            <img src={Google} id='Google' />
                         </a>
                     </div>
                 </ul>
